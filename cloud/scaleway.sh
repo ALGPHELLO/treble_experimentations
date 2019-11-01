@@ -70,11 +70,11 @@ run_script 'export DEBIAN_FRONTEND=noninteractive && dpkg --add-architecture i38
 		git )'
 
 run_script '
-	git config --global user.name "Pierre-Hugues Husson" && \
-	git config --global user.email phh@phh.me && \
+	git config --global user.name "algphello" && \
+	git config --global user.email khaledannab@gmail.com && \
 	git config --global color.ui auto'
 
-run_script 'git clone https://github.com/phhusson/treble_experimentations'
+run_script 'git clone https://github.com/algphello/treble_experimentations'
 
 run_script '\
 	mkdir build-dir && \
